@@ -10,16 +10,6 @@ Using the Flipkart E-Commerce dataset, build a model to predict the product cate
 - To decide the primary product category for classification, I first separated all the product categories from the “category-tree” column. A visualization of the class-distributions in each category level is described using the pie-charts below. 
 - The highest coverage (number of records) can be seen in category level 1.  All the rest of the category levels contain a varying number of missing values (NaN).
 
- Category Level 1     |   Category Level 3 |  Category Level 3
-:-------------------------:|:-------------------------::|:-------------------------:
-![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png) |  ![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png)) |  
-![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png))
-
- Category Level 4    |   Category Level 5 |  Category Level 6
-:-------------------------:|:-------------------------::|:-------------------------:
-![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png) |  ![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png)) |  
-![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png))
-
 
 
 ### Data preparation:
