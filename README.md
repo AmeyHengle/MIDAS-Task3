@@ -58,7 +58,7 @@ The class-distribution diagram indicates a large disparity between the class lab
 ### Result:
 
 A brief overview of the top 10 models (based on macro-f1 score) is given in the table below. 
-The best results are obtained using Linear SVM model with n-grams as input features. 
+The best results are obtained using Linear Support Vector Classifier model with TF_IDF (n-grams) as input features. 
 
 | Model                    | Input Feature | accuracy    | macro-f1    | macro-precision | macro-recall | weighted-f1 | weighted-precision | weighted-recall |
 |--------------------------|---------------|-------------|-------------|-----------------|--------------|-------------|--------------------|-----------------|
