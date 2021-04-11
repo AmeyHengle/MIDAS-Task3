@@ -1,3 +1,6 @@
+# MIDAS Summer Internship Program Task-3
+This repository contains a solution for the MIDAS Summer Internship Task-3: Product Category Prediction using the Flipkart E-Commerce Dataset
+
 ## Problem Statement:
 
 Using the Flipkart E-Commerce dataset, build a model to predict the product category with product description as the primary feature. Explain the data preprocessing, data visualization steps along with the model evaluation criteria. 
