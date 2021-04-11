@@ -1,5 +1,3 @@
-# MIDAS Summer Internship Task - 3
-
 ## Problem Statement:
 
 Using the Flipkart E-Commerce dataset, build a model to predict the product category with product description as the primary feature. Explain the data preprocessing, data visualization steps along with the model evaluation criteria. 
@@ -12,10 +10,21 @@ Using the Flipkart E-Commerce dataset, build a model to predict the product cate
 - To decide the primary product category for classification, I first separated all the product categories from the “category-tree” column. A visualization of the class-distributions in each category level is described using the pie-charts below. 
 - The highest coverage (number of records) can be seen in category level 1.  All the rest of the category levels contain a varying number of missing values (NaN).
 
+ Category Level 1     |   Category Level 3 |  Category Level 3
+:-------------------------:|:-------------------------::|:-------------------------:
+![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png) |  ![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png)) |  
+![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png))
+
+ Category Level 4    |   Category Level 5 |  Category Level 6
+:-------------------------:|:-------------------------::|:-------------------------:
+![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png) |  ![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png)) |  
+![](![](https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category1.png))
+
+
 
 ### Data preparation:
 
-- The primary category consists of a large number of class labels () with varying frequency. 
+- The primary category consists of a large number of class labels (265) with varying frequency. 
 In order to focus on relevant classes, I only consider class labels that constitute at least 0.5 percent of the total training set (20,000). 
 - Thus, the final dataset is reduced to 19,287 records spanning 18 class labels. 
 This dataset is further split into training and validation sets, using a standard stratified 80:20 split. 
