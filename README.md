@@ -16,7 +16,7 @@ Using the Flipkart E-Commerce dataset, build a model to predict the product cate
 
  Category Level 4     |   Category Level 5 |  Category Level 6
 :-------------------------:| :-------------------------: |:-------------------------:|
-<img src = "https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category4.png" width="350" height = "350" /> | <img src = "https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category5.png" width="350" height = "350" /> | <img src = "https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category.6png" width="350" height = "350" /> |
+<img src = "https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category4.png" width="350" height = "350" /> | <img src = "https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category5.png" width="350" height = "350" /> | <img src = "https://github.com/AmeyHengle/MIDAS-Task3/blob/main/visualization%20plots/category6.png" width="350" height = "350" /> |
 
 ### Data preparation:
 
